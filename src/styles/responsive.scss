@@ -1,0 +1,198 @@
+@import './vars.scss';
+
+@media screen and (max-width: 1200px) { 
+    .App {
+        .main-block {
+            padding: 0 20px;
+        }
+
+        .swapper .swipe {
+            max-width: 500px;
+        }
+
+        .suggestions-block {
+            padding: 100px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) { 
+    .App {
+        .news-big {
+            max-width: 280px;
+            max-height: 360px;
+        }
+
+        .swapper .swipe {
+            max-width: 300px;
+        }
+
+        .main-block {
+            min-height: 530px;
+
+            .news-block {
+                h6 {
+                    font-size: 18px;
+                    padding-bottom: 10px;
+                    line-height: 1.2em;
+                    height: 29px;
+                }
+
+                .categories-wrap {
+                    max-width: 200px;
+                    padding-top: 85px;
+
+                    h5 {
+                        font-size: 20px;
+                    }
+
+                    h6 {
+                        font-size: 20px;
+                    }
+
+                    .text {
+                        font-size: 16px;
+                        padding-bottom: 20px;
+                    }
+                }
+
+            }
+
+            .content-wrap .description {
+                font-size: 13px;
+                line-height: 1.3em;
+                height: 43px;
+                padding-top: 7px;
+            }
+
+            .category .category-name {
+                font-size: 14px;
+            }
+
+            .category {
+                max-width: 150px;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .suggestions-block {
+            padding: 0 20px 50px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .App {
+        .main-block {
+            min-height: 430px;
+
+            .news-block {
+
+                h6 {
+                    font-size: 15px;
+                    padding-bottom: 10px;
+                    line-height: 1.1em;
+                    height: 20px;
+                }
+
+                .categories-wrap {
+                    max-width: 130px;
+                    padding-top: 49px;
+
+                    h5 {
+                        font-size: 14px;
+                    }
+
+                    .text {
+                        font-size: 12px;
+                        padding-bottom: 15px;
+                    }
+
+                    h6 {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .content-wrap .description {
+                font-size: 10px;
+                line-height: 1.2em;
+                height: 35px;
+            }
+            
+            .category .category-name {
+                font-size: 12px;
+            }
+        }
+
+        .news-big {
+            max-width: 180px;
+            max-height: 260px;
+        }
+
+        .news-small {
+            min-width: 180px;
+            min-height: 260px;
+        }
+
+        .news {
+            .content-wrap {
+                .title {
+                    font-size: 15px;
+                    padding-bottom: 10px;
+                    line-height: 1.1em;
+                    height: 20px;
+                }
+
+                .description {
+                    font-size: 10px;
+                    line-height: 1.2em;
+                    height: 35px;
+                }
+            }
+        }
+
+        .swapper .swipe {
+            max-width: 190px;
+        }
+
+        .suggestions-block {
+            h6 {
+                font-size: 20px;
+            }
+
+            .text {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .App {
+        .main-block {
+            min-height: 580px;
+
+            .logo {
+                max-width: 200px;
+            }
+
+            .news-block {
+                .categories-wrap {
+                    max-width: 130px;
+                    padding-top: 270px;
+                    
+                    .text {
+                        color: $primary-color;
+                    }
+
+                    .categories {
+                        max-height: 111px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

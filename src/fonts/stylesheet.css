@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Regular'), local('Avenir-Regular'),
+        url('./AvenirNextLTPro-Regular.otf') format('otf'),
+        url('./AvenirNextLTPro-Regular.otf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Bold'), local('Avenir-Bold'),
+        url('./AvenirNextLTPro-Bold.otf') format('otf'),
+        url('./AvenirNextLTPro-Bold.otf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

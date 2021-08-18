@@ -1,0 +1,29 @@
+@import '../../styles/vars.scss';
+
+.category {
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+    .category-name {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.category-green{
+    border: 1px solid $primary-green;
+    background: $green;
+    color: $primary-green;
+}
+
+.category-red{
+    border: 1px solid $primary-red;
+    background: $red;
+    color: $primary-red;
+}

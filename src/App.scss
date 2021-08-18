@@ -1,0 +1,144 @@
+@import './styles/vars.scss';
+
+.App {
+	overflow-x: hidden;
+
+	.main-block {
+	    min-height: 630px;
+		position: relative;
+		background: linear-gradient($primary-color 50%, $white 50%);
+		
+
+		.logo {
+			max-width: 250px;
+			width: 100%;
+			padding: 50px 0 30px;
+		}
+
+		.news-block {
+
+			.categories-wrap {
+				max-width: 250px;
+				padding-top: 100px;
+
+				::-webkit-scrollbar-track {
+					-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+					border-radius: 10px;
+					background-color: #fcfcfc;
+				}
+				
+				::-webkit-scrollbar {
+					width: 6px;
+					background-color: #fcfcfc;
+				}
+				
+				::-webkit-scrollbar-thumb {
+					border-radius: 10px;
+					background-color: #c3c3c3;
+				}
+
+				.categories {
+					max-height: 232px;
+					overflow-y: auto;
+				}
+
+				h5 {
+					font-size: 24px;
+					font-weight: 900;
+				}
+
+				.text {
+					font-size: 18px;
+					color: $white;
+					padding-bottom: 50px;
+				}
+
+				h6 {
+					font-size: 24px;
+				}
+
+			}
+
+			.swipe-right {
+				padding-left: 25px;
+
+				h5, h6 {
+					color: $primary-green;
+				}
+			}
+
+			h5 {
+				padding-bottom: 5px;
+			}
+
+			h6 {
+				padding-bottom: 15px;
+			}
+
+			.swipe-left {
+				padding-right: 20px;
+
+				h5, h6 {
+					color: $primary-red;
+				}
+			}
+		}
+	}
+
+	.suggestions-block {
+		padding: 100px 0;
+
+		h6 {
+			font-size: 24px;
+			padding-bottom: 5px;
+			font-weight: 900;
+		}
+
+		.text {
+			font-size: 18px;
+			padding-bottom: 25px;
+		}
+
+		.wrapper {
+			animation: action 25s linear infinite;
+			animation-direction: linear infinite;
+		}
+	}
+
+}
+
+.swapper {
+	overflow: hidden;
+
+	.swipe {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		max-width: 600px;
+
+		&:nth-child(2n) {
+			transform: rotate(-7deg);
+		}
+	}
+
+	.seen-all-text{
+		color: $primary-color;
+		font-size: 24px;
+		padding-top: 250px;
+		font-weight: 900;
+	}
+}
+
+@-webkit-keyframes action {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(-100%); }
+}
+@keyframes action {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(-100%); }
+}

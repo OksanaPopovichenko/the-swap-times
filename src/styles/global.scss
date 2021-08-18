@@ -1,0 +1,8 @@
+@import '../fonts/stylesheet.css';
+@import './vars.scss';
+@import './override.scss';
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
