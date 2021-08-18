@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/the-swap-times/static/css/main.14f4c0b7.chunk.css",
+    "main.js": "/the-swap-times/static/js/main.8e9c4a14.chunk.js",
+    "main.js.map": "/the-swap-times/static/js/main.8e9c4a14.chunk.js.map",
+    "runtime-main.js": "/the-swap-times/static/js/runtime-main.99ab9d5e.js",
+    "runtime-main.js.map": "/the-swap-times/static/js/runtime-main.99ab9d5e.js.map",
+    "static/css/2.373bc5f8.chunk.css": "/the-swap-times/static/css/2.373bc5f8.chunk.css",
+    "static/js/2.893bbfbe.chunk.js": "/the-swap-times/static/js/2.893bbfbe.chunk.js",
+    "static/js/2.893bbfbe.chunk.js.map": "/the-swap-times/static/js/2.893bbfbe.chunk.js.map",
+    "static/js/3.c70b9f93.chunk.js": "/the-swap-times/static/js/3.c70b9f93.chunk.js",
+    "static/js/3.c70b9f93.chunk.js.map": "/the-swap-times/static/js/3.c70b9f93.chunk.js.map",
+    "index.html": "/the-swap-times/index.html",
+    "static/css/2.373bc5f8.chunk.css.map": "/the-swap-times/static/css/2.373bc5f8.chunk.css.map",
+    "static/css/main.14f4c0b7.chunk.css.map": "/the-swap-times/static/css/main.14f4c0b7.chunk.css.map",
+    "static/js/2.893bbfbe.chunk.js.LICENSE.txt": "/the-swap-times/static/js/2.893bbfbe.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/the-swap-times/static/media/AvenirNextLTPro-Regular.94f2f163.otf",
+    "static/media/cross.d3877505.svg": "/the-swap-times/static/media/cross.d3877505.svg",
+    "static/media/logo.4e2a09ab.svg": "/the-swap-times/static/media/logo.4e2a09ab.svg",
+    "static/media/swap.a0ec5c2c.svg": "/the-swap-times/static/media/swap.a0ec5c2c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99ab9d5e.js",
+    "static/css/2.373bc5f8.chunk.css",
+    "static/js/2.893bbfbe.chunk.js",
+    "static/css/main.14f4c0b7.chunk.css",
+    "static/js/main.8e9c4a14.chunk.js"
+  ]
+}
