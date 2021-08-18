@@ -114,6 +114,14 @@
                     }
                 }
             }
+            
+           .swipe-left {
+                padding-right: 0;
+           }
+
+            .swipe-right {
+                padding-left: 0;
+            }
 
             .content-wrap .description {
                 font-size: 10px;
