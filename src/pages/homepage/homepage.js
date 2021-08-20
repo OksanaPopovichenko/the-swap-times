@@ -8,8 +8,6 @@ import { Categories, NewsSuggetions } from "./components";
 import { loaderService } from "../../services";
 import '../../styles/responsive.scss';
 
-const ACCESS_KEY = '0903149d2c4fc6ac74bffc7410592d70';
-
 const apiUrl = `https://api.mediastack.com/v1/news?access_key=${ACCESS_KEY}`;
 const categories = ['general', 'business', 'entertainment', 'health', 'science', 'sports', 'technology'];
 
